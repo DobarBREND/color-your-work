@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>COLORS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="icon" type="text/x-icon" href="./images/icon144.png">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script type="text/javascript" src="./js/scripts.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		
+		
+	
+	</head>
+	<body>
+		
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#"><img src="./images/icon144.png" alt="logo" id="logo"><span class="main-title">1<sup>st</sup> COLORS</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02"	>
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#rgb">RGB</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#cmyk">CMYK</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about-colors">RGB vs CMYK</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+		
+		
+		
+		<header>
+    <!-- Background image -->
+	  <div class="text-center bg-image">
+	  <img src="./images/bg-image.jpg" alt="background image" id="bg-image">
+		<div class="mask">
+		  <div class="d-flex justify-content-center align-items-center h-200">
+			<div class="text-white">
+			  <h1 class="mb-3">Color Your Work</h1>
+			  <h4 class="mb-3">with easy to use 1<sup>st</sup> COLORS </h4>
+			  <input id="colopicker" type="color" style="opacity:0;	width:150px; height: 48px; position:absolute; margin-top: 25vh;" title=" First-aid color mixer and converter "><button id="aid">Converter</button>
+			  <!--<a class="btn btn-outline-light btn-lg" href="#Help" role="button" title="Links to other Web resources">Resources</a>-->
+			</div>
+		  </div>
+		</div>
+	  </div>
+  <!-- Background image -->
+		</header>
+		
+		
+		
+		
+		<div id="container-fluid">
+				
+			<div class="row sticky" id="rgb">
+				<h1>RGB COLORS</h1>
+			</div>
+			
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm">
+					<div class="bg-color"><p>AliceBlue&nbsp;&nbsp;&nbsp;#F0F8FF</p></div>
+				  	<div class="bg-color"><p>AntiqueWhite&nbsp;&nbsp;&nbsp;#FAEBD7</p></div>
+				  	<div class="bg-color"><p>Aqua&nbsp;&nbsp;&nbsp;#00FFFF</p></div>
+					<div class="bg-color"><p>Aquamarine&nbsp;&nbsp;&nbsp;#7FFFD4</p></div>
+					<div class="bg-color"><p>Azure&nbsp;&nbsp;&nbsp;#F0FFFF</p></div>
+					<div class="bg-color"><p>Beige&nbsp;&nbsp;&nbsp;#F5F5DC</p></div>
+					<div class="bg-color"><p>Bisque&nbsp;&nbsp;&nbsp;#F5F5DC</p></div>
+					<div class="bg-color"><p>Black&nbsp;&nbsp;&nbsp;#000000</p></div>
+					<div class="bg-color"><p>BlanchedAlmond&nbsp;&nbsp;&nbsp;#FFEBCD</p></div>
+					<div class="bg-color"><p>Blue&nbsp;&nbsp;&nbsp;#0000FF</p></div>
+					<div class="bg-color"><p>BlueViolet&nbsp;&nbsp;&nbsp;#8A2BE2</p></div>
+					<div class="bg-color"><p>Brown&nbsp;&nbsp;&nbsp;#A52A2A</p></div>
+					<div class="bg-color"><p>BurlyWood&nbsp;&nbsp;&nbsp;#DEB887</p></div>
+					<div class="bg-color"><p>CadetBlue&nbsp;&nbsp;&nbsp;#5F9EA0</p></div>
+					<div class="bg-color"><p>Chartreuse&nbsp;&nbsp;&nbsp;#7FFF00</p></div>
+					<div class="bg-color"><p>Chocolate&nbsp;&nbsp;&nbsp;#D2691E</p></div>
+					<div class="bg-color"><p>Coral&nbsp;&nbsp;&nbsp;#FF7F50</p></div>
+					<div class="bg-color"><p>ChornflowerBlue&nbsp;&nbsp;&nbsp;#6495ED</p></div>
+					<div class="bg-color"><p>Cornsilk&nbsp;&nbsp;&nbsp;#FFF8DC</p></div>
+					<div class="bg-color"><p>Crimson&nbsp;&nbsp;&nbsp;#DC143C</p></div>
+					<div class="bg-color"><p>Cyan&nbsp;&nbsp;&nbsp;#00FFFF</p></div>
+					<div class="bg-color"><p>DarkBlue&nbsp;&nbsp;&nbsp;#00008B</p></div>
+					<div class="bg-color"><p>DarkCyan&nbsp;&nbsp;&nbsp;#008B8B</p></div>
+					<div class="bg-color"><p>DarkGoldenRod&nbsp;&nbsp;&nbsp;#B8860B</p></div>
+					<div class="bg-color"><p>DarkGrey&nbsp;&nbsp;&nbsp;#A9A9A9</p></div>
+					<div class="bg-color"><p>DarkMagenta&nbsp;&nbsp;&nbsp;#8B008B</p></div>
+					<div class="bg-color"><p>DarkOliveGreen&nbsp;&nbsp;&nbsp;#556B2F</p></div>
+					<div class="bg-color"><p>DarkOrange&nbsp;&nbsp;&nbsp;#FF8C00</p></div>
+					<div class="bg-color"><p>DarkOrchid&nbsp;&nbsp;&nbsp;#9932CC</p></div>
+					<div class="bg-color"><p>DarkRed&nbsp;&nbsp;&nbsp;#8B0000</p></div>
+					<div class="bg-color"><p>DarkSalmon&nbsp;&nbsp;&nbsp;#E9967A</p></div>
+					<div class="bg-color"><p>DarkSeaGreen&nbsp;&nbsp;&nbsp;#8FBC8F</p></div>
+					<div class="bg-color"><p>DarkSlateBlue&nbsp;&nbsp;&nbsp;#483D8B</p></div>
+					<div class="bg-color"><p>DarkSlateGray&nbsp;&nbsp;&nbsp;#2F4F4F</p></div>
+					<div class="bg-color"><p>DarkTurquoise&nbsp;&nbsp;&nbsp;#00CED1</p></div>
+					<div class="bg-color"><p>DarkViolet&nbsp;&nbsp;&nbsp;#9400D3</p></div>
+					<div class="bg-color"><p>DeepPink&nbsp;&nbsp;&nbsp;#FF1493</p></div>
+					<div class="bg-color"><p>DeepSkyBlue&nbsp;&nbsp;&nbsp;#00BFFF</p></div>
+					<div class="bg-color"><p>DimGray&nbsp;&nbsp;&nbsp;#696969</p></div>
+					<div class="bg-color"><p>DodgerBlue&nbsp;&nbsp;&nbsp;#1E90FF</p></div>
+					<div class="bg-color"><p>FireBrick&nbsp;&nbsp;&nbsp;#B22222</p></div>
+					<div class="bg-color"><p>FloralWhite&nbsp;&nbsp;&nbsp;#FFFAF0</p></div>
+					<div class="bg-color"><p>ForestGreen&nbsp;&nbsp;&nbsp;#228B22</p></div>
+					<div class="bg-color"><p>Fuchsia&nbsp;&nbsp;&nbsp;#FF00FF</p></div>
+					<div class="bg-color"><p>Gainsboro&nbsp;&nbsp;&nbsp;#DCDCDC</p></div>
+					<div class="bg-color"><p>GhostWhite&nbsp;&nbsp;&nbsp;#F8F8FF</p></div>
+				</div>
+				
+				
+				<div class="col-sm">
+					<div class="bg-color-2"><p>Gold&nbsp;&nbsp;&nbsp;#FFD700</p></div>
+				  	<div class="bg-color-2"><p>GoldenRod&nbsp;&nbsp;&nbsp;#DAA520</p></div>
+				  	<div class="bg-color-2"><p>Gray&nbsp;&nbsp;&nbsp;#808080</p></div>
+					<div class="bg-color-2"><p>Green&nbsp;&nbsp;&nbsp;#008000</p></div>
+					<div class="bg-color-2"><p>GreenYellow&nbsp;&nbsp;&nbsp;#ADFF2F</p></div>
+					<div class="bg-color-2"><p>HoneyDew&nbsp;&nbsp;&nbsp;#F0FFF0</p></div>
+					<div class="bg-color-2"><p>HotPink&nbsp;&nbsp;&nbsp;#FF69B4</p></div>
+					<div class="bg-color-2"><p>IndianRed&nbsp;&nbsp;&nbsp;#CD5C5C</p></div>
+					<div class="bg-color-2"><p>Indigo&nbsp;&nbsp;&nbsp;#4B0082</p></div>
+					<div class="bg-color-2"><p>Ivory&nbsp;&nbsp;&nbsp;#FFFFF0</p></div>
+					<div class="bg-color-2"><p>Khaki&nbsp;&nbsp;&nbsp;#F0E68C</p></div>
+					<div class="bg-color-2"><p>Lavender&nbsp;&nbsp;&nbsp;#E6E6FA</p></div>
+					<div class="bg-color-2"><p>LavenderBlush&nbsp;&nbsp;&nbsp;#FFF0F5</p></div>
+					<div class="bg-color-2"><p>LawnGreen&nbsp;&nbsp;&nbsp;#7CFC00</p></div>
+					<div class="bg-color-2"><p>LemonChiffon&nbsp;&nbsp;&nbsp;#FFFACD</p></div>
+					<div class="bg-color-2"><p>LightBlue&nbsp;&nbsp;&nbsp;#ADD8E6</p></div>
+					<div class="bg-color-2"><p>LightCoral&nbsp;&nbsp;&nbsp;#F08080</p></div>
+					<div class="bg-color-2"><p>LightCyan&nbsp;&nbsp;&nbsp;#E0FFFF</p></div>
+					<div class="bg-color-2"><p>LightGoldenRodYellow&nbsp;&nbsp;&nbsp;#FAFAD2</p></div>
+					<div class="bg-color-2"><p>LightGray&nbsp;&nbsp;&nbsp;#D3D3D3</p></div>
+					<div class="bg-color-2"><p>LightGreen&nbsp;&nbsp;&nbsp;#90EE90</p></div>
+					<div class="bg-color-2"><p>LightPink&nbsp;&nbsp;&nbsp;#FFB6C1</p></div>
+					<div class="bg-color-2"><p>LightSalmon&nbsp;&nbsp;&nbsp;#FFA07A</p></div>
+					<div class="bg-color-2"><p>LightSeaGreen&nbsp;&nbsp;&nbsp;#20B2AA</p></div>
+					<div class="bg-color-2"><p>LightSkyBlue&nbsp;&nbsp;&nbsp;#87CEFA</p></div>
+					<div class="bg-color-2"><p>LightSlategray&nbsp;&nbsp;&nbsp;#778899</p></div>
+					<div class="bg-color-2"><p>LightSteelBlue&nbsp;&nbsp;&nbsp;#B0C4DE</p></div>
+					<div class="bg-color-2"><p>LightYellow&nbsp;&nbsp;&nbsp;#FFFFE0</p></div>
+					<div class="bg-color-2"><p>Lime&nbsp;&nbsp;&nbsp;#00FF00</p></div>
+					<div class="bg-color-2"><p>LimeGreen&nbsp;&nbsp;&nbsp;#32CD32</p></div>
+					<div class="bg-color-2"><p>Linen&nbsp;&nbsp;&nbsp;#FAF0E6</p></div>
+					<div class="bg-color-2"><p>Magenta&nbsp;&nbsp;&nbsp;#FF00FF</p></div>
+					<div class="bg-color-2"><p>Maroon&nbsp;&nbsp;&nbsp;#800000</p></div>
+					<div class="bg-color-2"><p>MediumAquaMarin&nbsp;&nbsp;&nbsp;#66CDAA</p></div>
+					<div class="bg-color-2"><p>MediumBlue&nbsp;&nbsp;&nbsp;#0000CD</p></div>
+					<div class="bg-color-2"><p>MediumOrchid&nbsp;&nbsp;&nbsp;#BA55D3</p></div>
+					<div class="bg-color-2"><p>MediumPurple&nbsp;&nbsp;&nbsp;#9370DB</p></div>
+					<div class="bg-color-2"><p>MediumSeaGreen&nbsp;&nbsp;&nbsp;#3CB371</p></div>
+					<div class="bg-color-2"><p>MediumStateBlue&nbsp;&nbsp;&nbsp;#7B68EE</p></div>
+					<div class="bg-color-2"><p>MediumSpringGreen&nbsp;&nbsp;&nbsp;#00FA9A</p></div>
+					<div class="bg-color-2"><p>MediumTurquoise&nbsp;&nbsp;&nbsp;#48D1CC</p></div>
+					<div class="bg-color-2"><p>MediumVioletRed&nbsp;&nbsp;&nbsp;#C71585</p></div>
+					<div class="bg-color-2"><p>MidnightBlue&nbsp;&nbsp;&nbsp;#191970</p></div>
+					<div class="bg-color-2"><p>MintCream&nbsp;&nbsp;&nbsp;#F5FFFA</p></div>
+					<div class="bg-color-2"><p>MistyRose&nbsp;&nbsp;&nbsp;#FFE4E1</p></div>
+					<div class="bg-color-2"><p>Moccasin&nbsp;&nbsp;&nbsp;#FFE4B5</p></div>
+				</div>
+				
+				<div class="col-sm">
+					<div class="bg-color-3"><p>NavajoWhite&nbsp;&nbsp;&nbsp;#FFDEAD</p></div>
+				  	<div class="bg-color-3"><p>Navy&nbsp;&nbsp;&nbsp;#000080</p></div>
+				  	<div class="bg-color-3"><p>OldLace&nbsp;&nbsp;&nbsp;#FDF5E6</p></div>
+					<div class="bg-color-3"><p>Olive&nbsp;&nbsp;&nbsp;#808000</p></div>
+					<div class="bg-color-3"><p>OliveDrab&nbsp;&nbsp;&nbsp;#6B8E23</p></div>
+					<div class="bg-color-3"><p>Orange&nbsp;&nbsp;&nbsp;#FFA500</p></div>
+					<div class="bg-color-3"><p>OrangeRed&nbsp;&nbsp;&nbsp;#FF4500</p></div>
+					<div class="bg-color-3"><p>Orchid&nbsp;&nbsp;&nbsp;#DA70D6</p></div>
+					<div class="bg-color-3"><p>PaleGoldenRod&nbsp;&nbsp;&nbsp;#EEE8AA</p></div>
+					<div class="bg-color-3"><p>PaleGreen&nbsp;&nbsp;&nbsp;#98FB98</p></div>
+					<div class="bg-color-3"><p>PaleTurquoise&nbsp;&nbsp;&nbsp;#AFEEEE</p></div>
+					<div class="bg-color-3"><p>PaleVioletRed&nbsp;&nbsp;&nbsp;#DB7093</p></div>
+					<div class="bg-color-3"><p>PapayaWhip&nbsp;&nbsp;&nbsp;#FFEFD5</p></div>
+					<div class="bg-color-3"><p>PeachPuff&nbsp;&nbsp;&nbsp;#FFDAB9</p></div>
+					<div class="bg-color-3"><p>Peru&nbsp;&nbsp;&nbsp;#CD853F</p></div>
+					<div class="bg-color-3"><p>Pink&nbsp;&nbsp;&nbsp;#FFC0CB</p></div>
+					<div class="bg-color-3"><p>Plum&nbsp;&nbsp;&nbsp;#DDA0DD</p></div>
+					<div class="bg-color-3"><p>PowderBlue&nbsp;&nbsp;&nbsp;#B0E0E6</p></div>
+					<div class="bg-color-3"><p>Purple&nbsp;&nbsp;&nbsp;#800080</p></div>
+					<div class="bg-color-3"><p>RebeccaPurple&nbsp;&nbsp;&nbsp;#663399</p></div>
+					<div class="bg-color-3"><p>Red&nbsp;&nbsp;&nbsp;#FF0000</p></div>
+					<div class="bg-color-3"><p>RosyBrown&nbsp;&nbsp;&nbsp;#BC8F8F</p></div>
+					<div class="bg-color-3"><p>RoyalBlue&nbsp;&nbsp;&nbsp;#4169E1</p></div>
+					<div class="bg-color-3"><p>SaddleBrown&nbsp;&nbsp;&nbsp;#8B4513</p></div>
+					<div class="bg-color-3"><p>Salmon&nbsp;&nbsp;&nbsp;#FA8072</p></div>
+					<div class="bg-color-3"><p>SandyBrown&nbsp;&nbsp;&nbsp;#F4A460</p></div>
+					<div class="bg-color-3"><p>SeaGreen&nbsp;&nbsp;&nbsp;#2E8B57</p></div>
+					<div class="bg-color-3"><p>SeaShell&nbsp;&nbsp;&nbsp;#FFF5EE</p></div>
+					<div class="bg-color-3"><p>Sienna&nbsp;&nbsp;&nbsp;#A0522D</p></div>
+					<div class="bg-color-3"><p>Silver&nbsp;&nbsp;&nbsp;#C0C0C0</p></div>
+					<div class="bg-color-3"><p>SkyBlue&nbsp;&nbsp;&nbsp;#87CEEB</p></div>
+					<div class="bg-color-3"><p>SlateBlue&nbsp;&nbsp;&nbsp;#6A5ACD</p></div>
+					<div class="bg-color-3"><p>SlateGray&nbsp;&nbsp;&nbsp;#708090</p></div>
+					<div class="bg-color-3"><p>Snow&nbsp;&nbsp;&nbsp;#FFFAFA</p></div>
+					<div class="bg-color-3"><p>SpringGreen&nbsp;&nbsp;&nbsp;#00FF7F</p></div>
+					<div class="bg-color-3"><p>SteelBlue&nbsp;&nbsp;&nbsp;#4682B4</p></div>
+					<div class="bg-color-3"><p>Tan&nbsp;&nbsp;&nbsp;#D2B48C</p></div>
+					<div class="bg-color-3"><p>Teal&nbsp;&nbsp;&nbsp;#008080</p></div>
+					<div class="bg-color-3"><p>Thistle&nbsp;&nbsp;&nbsp;#D8BFD8</p></div>
+					<div class="bg-color-3"><p>Tomato&nbsp;&nbsp;&nbsp;#FF6347</p></div>
+					<div class="bg-color-3"><p>Turquoise&nbsp;&nbsp;&nbsp;#40E0D0</p></div>
+					<div class="bg-color-3"><p>Violet&nbsp;&nbsp;&nbsp;#EE82EE</p></div>
+					<div class="bg-color-3"><p>Wheat&nbsp;&nbsp;&nbsp;#F5DEB3</p></div>
+					<div class="bg-color-3"><p>White&nbsp;&nbsp;&nbsp;#FFFFFF</p></div>
+					<div class="bg-color-3"><p>WhiteSmoke&nbsp;&nbsp;&nbsp;#F5F5F5</p></div>
+					<div class="bg-color-3"><p>Yellow&nbsp;&nbsp;&nbsp;#FFFF00</p></div>
+					<div class="bg-color-3"><p>YellowGreen&nbsp;&nbsp;&nbsp;#9ACD32</p></div>
+				</div>
+			</div>
+			
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+					
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb1" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+				
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb2" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb3" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb4" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb5" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb6" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb7" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb8" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb9" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb10" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+			
+				<div class="col-sm-12">
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+					<div class="bg-color-rgb11" title="rgb(100%, 0%, 0%) = rgb(255, 230, 230)"></div>
+				</div>
+			</div>
+			
+			<!--------------------------- CMYK COLORS --------------------------------->
+			
+			<div class="row sticky" id="cmyk">
+				<h1>CMYK COLORS</h1>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(20%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(30%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(40%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(50%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(60%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(70%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(80%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(90%, 0%, 0%, 0%)" data-content="rgb(204, 255, 255);&nbsp;&nbsp; #CCFFFF"></div>
+					<div class="bg-color-cmyk1" onclick="callPopUp()" data-toggle="popover" data-title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk2" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(255, 0, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk2" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk2" ></div>
+					<div class="bg-color-cmyk2" title=""></div>
+					<div class="bg-color-cmyk2" title=""></div>
+					<div class="bg-color-cmyk2" title=""></div>
+					<div class="bg-color-cmyk2" title=""></div>
+					<div class="bg-color-cmyk2" title=""></div>
+					<div class="bg-color-cmyk2" title=""></div>
+					<div class="bg-color-cmyk2" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk3" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk3" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk3" ></div>
+					<div class="bg-color-cmyk3" title=""></div>
+					<div class="bg-color-cmyk3" title=""></div>
+					<div class="bg-color-cmyk3" title=""></div>
+					<div class="bg-color-cmyk3" title=""></div>
+					<div class="bg-color-cmyk3" title=""></div>
+					<div class="bg-color-cmyk3" title=""></div>
+					<div class="bg-color-cmyk3" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk4" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk4" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk4" ></div>
+					<div class="bg-color-cmyk4" title=""></div>
+					<div class="bg-color-cmyk4" title=""></div>
+					<div class="bg-color-cmyk4" title=""></div>
+					<div class="bg-color-cmyk4" title=""></div>
+					<div class="bg-color-cmyk4" title=""></div>
+					<div class="bg-color-cmyk4" title=""></div>
+					<div class="bg-color-cmyk4" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk5" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk5" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk5" ></div>
+					<div class="bg-color-cmyk5" title=""></div>
+					<div class="bg-color-cmyk5" title=""></div>
+					<div class="bg-color-cmyk5" title=""></div>
+					<div class="bg-color-cmyk5" title=""></div>
+					<div class="bg-color-cmyk5" title=""></div>
+					<div class="bg-color-cmyk5" title=""></div>
+					<div class="bg-color-cmyk5" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk6" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk6" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk6" ></div>
+					<div class="bg-color-cmyk6" title=""></div>
+					<div class="bg-color-cmyk6" title=""></div>
+					<div class="bg-color-cmyk6" title=""></div>
+					<div class="bg-color-cmyk6" title=""></div>
+					<div class="bg-color-cmyk6" title=""></div>
+					<div class="bg-color-cmyk6" title=""></div>
+					<div class="bg-color-cmyk6" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk7" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk7" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk7" ></div>
+					<div class="bg-color-cmyk7" title=""></div>
+					<div class="bg-color-cmyk7" title=""></div>
+					<div class="bg-color-cmyk7" title=""></div>
+					<div class="bg-color-cmyk7" title=""></div>
+					<div class="bg-color-cmyk7" title=""></div>
+					<div class="bg-color-cmyk7" title=""></div>
+					<div class="bg-color-cmyk7" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk8" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk8" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk8" ></div>
+					<div class="bg-color-cmyk8" title=""></div>
+					<div class="bg-color-cmyk8" title=""></div>
+					<div class="bg-color-cmyk8" title=""></div>
+					<div class="bg-color-cmyk8" title=""></div>
+					<div class="bg-color-cmyk8" title=""></div>
+					<div class="bg-color-cmyk8" title=""></div>
+					<div class="bg-color-cmyk8" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk9" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk9" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk9" ></div>
+					<div class="bg-color-cmyk9" title=""></div>
+					<div class="bg-color-cmyk9" title=""></div>
+					<div class="bg-color-cmyk9" title=""></div>
+					<div class="bg-color-cmyk9" title=""></div>
+					<div class="bg-color-cmyk9" title=""></div>
+					<div class="bg-color-cmyk9" title=""></div>
+					<div class="bg-color-cmyk9" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<div class="bg-color-cmyk10" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(100%, 0%, 0%, 0%)" data-content="rgb(0, 255, 255);&nbsp;&nbsp; #00FFFF"></div>
+					<div class="bg-color-cmyk10" onclick="callPopUp()" data-bs-toggle="popover" title="CMYK(10%, 0%, 0%, 0%)" data-content="rgb(230, 255, 255);&nbsp;&nbsp; #E6FFFF"></div>
+					<div class="bg-color-cmyk10" ></div>
+					<div class="bg-color-cmyk10" title=""></div>
+					<div class="bg-color-cmyk10" title=""></div>
+					<div class="bg-color-cmyk10" title=""></div>
+					<div class="bg-color-cmyk10" title=""></div>
+					<div class="bg-color-cmyk10" title=""></div>
+					<div class="bg-color-cmyk10" title=""></div>
+					<div class="bg-color-cmyk10" title=""></div>
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(0%, 96%, 100%, 22%)" 1text="Alizarin Red" title="Alizarin Red" id="myInput1" readonly onclick="copyToClipboard1()">
+					<input type="text" value="cmyk(0%, 72%, 59%, 43%)" 2text="Amarante" title="Amarante" id="myInput2" readonly onclick="copyToClipboard2()">
+					<input type="text" value="cmyk(0%, 19%, 100%, 6%)" 3text="Amber" title="Amber" id="myInput3" readonly onclick="copyToClipboard3()">
+					<input type="text" value="cmyk(19%, 54%, 0%, 35%)" 4text="Amethyst" title="Amethist" id="myInput4" readonly onclick="copyToClipboard4()">
+					<input type="text" value="cmyk(18%, 41%, 0%, 91%)" 5text="Aniline Black" title="Aniline Black" id="myInput5" readonly onclick="copyToClipboard5()">
+					<input type="text" value="cmyk(37%, 0%, 92%, 0%)" 6text="Anise Green" title="Anise Green" id="myInput6" readonly onclick="copyToClipboard6()">
+					<input type="text" value="cmyk(74%, 0%, 82%, 21%)" 7text="Apple Green" title="Apple Green" id="myInput7" readonly onclick="copyToClipboard7()">
+					<input type="text" value="cmyk(0%, 45%, 79%, 10%)" 8text="Apricot" title="Apricot" id="myInput8" readonly onclick="copyToClipboard8()">
+					<input type="text" value="cmyk(51%, 0%, 0%, 3%)" 9text="Aquamarine" title="Aquamarine" id="myInput9" readonly onclick="copyToClipboard9()">
+					<input type="text" value="cmyk(23%, 0%, 43%, 37%)" 10text="Asparagus" title="Asparagus" id="myInput10" readonly onclick="copyToClipboard10()">
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(0%, 100%, 27%, 78%)" 11text="Aubergine" title="Aubergine" id="myInput11" readonly onclick="copyToClipboard11()">
+					<input type="text" value="cmyk(0%, 61%, 92%, 38%)" 12text="Auburn" title="Auburn" id="myInput12" readonly onclick="copyToClipboard12()">
+					<input type="text" value="cmyk(0%, 20%, 62%, 0%)" 13text="Aurore" title="Aurore" id="myInput13" readonly onclick="copyToClipboard13()">
+					<input type="text" value="cmyk(6%, 0%, 0%, 0%)" 14text="Azur Mist" title="Azur Mist" id="myInput14" readonly onclick="copyToClipboard14()">
+					<input type="text" value="cmyk(33%, 52%, 0%, 0%)" 15text="Azurin" title="Azurin" id="myInput15" readonly onclick="copyToClipboard15()">
+					<input type="text" value="cmyk(0%, 93%, 100%, 55%)" 16text="Beef Blood" title="Beef Blood" id="myInput16" readonly onclick="copyToClipboard16()">
+					<input type="text" value="cmyk(0%, 14%, 37%, 22%)" 17text="Beige" title="Beige" id="myInput17" readonly onclick="copyToClipboard17()">
+					<input type="text" value="cmyk(0%, 5%, 30%, 31%	)" 18text="Beigeasse" title="Beigeasse" id="myInput18" readonly onclick="copyToClipboard18()">
+					<input type="text" value="cmyk(0%, 14%, 24%, 9%)" 19text="Belly Doe" title="Belly Doe" id="myInput19" readonly onclick="copyToClipboard19()">
+					<input type="text" value="cmyk(61%, 26%, 0%, 64%)" 20text="Berlin Blue" title="Berlin Blue" id="myInput20" readonly onclick="copyToClipboard20()">
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(0%, 6%, 15%, 54%)" 21text="Bi" title="Bi" id="myInput21" readonly onclick="copyToClipboard21()">
+					<input type="text" value="cmyk(0%, 61%, 92%, 38%)" 22text="Bi" title="Bi" id="myInput22" readonly onclick="copyToClipboard22()">
+					<input type="text" value="cmyk(0%, 20%, 62%, 0%)" 23text="Bishop Violet" title="Bishop Violet" id="myInput23" readonly onclick="copyToClipboard23()">
+					<input type="text" value="cmyk(6%, 0%, 0%, 0%)" 24text="Bisque" title="Bisque" id="myInput24" readonly onclick="copyToClipboard24()">
+					<input type="text" value="cmyk(33%, 52%, 0%, 0%)" 25text="Bistre" title="Bistre" id="myInput25" readonly onclick="copyToClipboard25()">
+					<input type="text" value="cmyk(0%, 93%, 100%, 55%)" 26text="Bistre" title="Bistre" id="myInput26" readonly onclick="copyToClipboard26()">
+					<input type="text" value="cmyk(0%, 14%, 37%, 22%)" 27text="Bitumen" title="Bitumen" id="myInput27" readonly onclick="copyToClipboard27()">
+					<input type="text" value="cmyk(0%, 5%, 30%, 31%	)" 28text="Black Smoke" title="Black Smoke" id="myInput28" readonly onclick="copyToClipboard28()">
+					<input type="text" value="cmyk(0%, 14%, 24%, 9%)" 29text="Blet" title="Blet" id="myInput29" readonly onclick="copyToClipboard29()">
+					<input type="text" value="cmyk(61%, 26%, 0%, 64%)" 30text="Bleu De France" title="Bleu De France" id="myInput30" readonly onclick="copyToClipboard30()">
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(0%, 17%, 49%, 11%)" 31text="Blonde" title="Blonde" id="myInput31" readonly onclick="copyToClipboard31()">
+					<input type="text" value="cmyk(52%, 34%, 0%, 32%)" 32text="Blue Cornflower" title="Blue Cornflower" id="myInput32" readonly onclick="copyToClipboard32()">
+					<input type="text" value="cmyk(23%, 14%, 0%, 35%)" 33text="Blue Horizon" title="Blue Horizon" id="myInput33" readonly onclick="copyToClipboard33()">
+					<input type="text" value="cmyk(100%, 18%, 0%, 29%)" 34text="Blue Jumped" title="Blue Jumped" id="myInput34" readonly onclick="copyToClipboard34()">
+					<input type="text" value="cmyk(53%, 29%, 0%, 0%)" 35text="Blue Sky" title="Blue Sky" id="myInput35" readonly onclick="copyToClipboard35()">
+					<input type="text" value="cmyk(100%, 0%, 0%, 20%)" 36text="Blue South Sea" title="Blue South Sea" id="myInput36" readonly onclick="copyToClipboard36()">
+					<input type="text" value="cmyk(28%, 18%, 0%, 22%)" 37text="Blue Wagon" title="Blue Wagon" id="myInput37" readonly onclick="copyToClipboard37()">
+					<input type="text" value="cmyk(44%, 25%, 0%, 40%)" 38text="Blue Woad" title="Blue Woad" id="myInput38" readonly onclick="copyToClipboard38()">
+					<input type="text" value="cmyk(0%, 94%, 76%, 57%)" 39text="Bordeaux" title="Bordeaux" id="myInput39" readonly onclick="copyToClipboard39()">
+					<input type="text" value="cmyk(0%, 65%, 80%, 48%)" 40text="Brick" title="Brick" id="myInput40" readonly onclick="copyToClipboard40()">
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(0%, 20%, 73%, 62%)" 41text="Bronze" title="Bronze" id="myInput41" readonly onclick="copyToClipboard41()">
+					<input type="text" value="cmyk(0%, 46%, 27%, 23%)" 42text="Brooms Rose" title="Brooms Rose" id="myInput42" readonly onclick="copyToClipboard42()">
+					<input type="text" value="cmyk(0%, 53%, 100%, 65%)" 43text="Brown" title="Brown" id="myInput43" readonly onclick="copyToClipboard43()">
+					<input type="text" value="cmyk(0%, 34%, 81%, 64%)" 44text="Brown" title="Brown" id="myInput44" readonly onclick="copyToClipboard44()">
+					<input type="text" value="cmyk(0%, 11%, 41%, 7%	)" 45text="Bulle" title="Bulle" id="myInput45" readonly onclick="copyToClipboard45()">
+					<input type="text" value="cmyk(0%, 58%, 100%, 20%)" 46text="Burnt Orange" title="Burnt Orange" id="myInput46" readonly onclick="copyToClipboard46()">
+					<input type="text" value="cmyk(0%, 5%, 55%, 6%)" 47text="Butter" title="Butter" id="myInput47" readonly onclick="copyToClipboard47()">
+					<input type="text" value="cmyk(0%, 73%, 13%, 26%)" 48text="Byzantine" title="Byzantine" id="myInput48" readonly onclick="copyToClipboard48()">
+					<input type="text" value="cmyk(0%, 63%, 12%, 56%)" 49text="Byzantium" title="Byzantium" id="myInput49" readonly onclick="copyToClipboard49()">
+					<input type="text" value="cmyk(0%, 43%, 74%, 82%)" 50text="Cachou" title="Cachou" id="myInput50" readonly onclick="copyToClipboard50()">
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(84%, 17%, 0%, 7%	)" 51text="Caeruleum" title="Caeruleum" id="myInput51" readonly onclick="copyToClipboard51()">
+					<input type="text" value="cmyk(0%, 34%, 99%, 73%)" 52text="Café" title="Café" id="myInput52" readonly onclick="copyToClipboard52()">
+					<input type="text" value="cmyk(0%, 34%, 81%, 29%)" 53text="Camel Hair" title="Camel Hair" id="myInput53" readonly onclick="copyToClipboard53()">
+					<input type="text" value="cmyk(0%, 74%, 37%, 2%	)" 54text="Candy Pink" title="Candy Pink" id="myInput54" readonly onclick="copyToClipboard54()">
+					<input type="text" value="cmyk(0%, 30%, 58%, 51%)" 55text="Cannelle" title="Cannelle" id="myInput55" readonly onclick="copyToClipboard55()">
+					<input type="text" value="cmyk(0%, 60%, 100%, 51%)" 56text="Caramel" title="Caramel" id="myInput56" readonly onclick="copyToClipboard56()">
+					<input type="text" value="cmyk(0%, 26%, 47%, 93%)" 57text="Carbon Black" title="Carbon Black" id="myInput57" readonly onclick="copyToClipboard57()">
+					<input type="text" value="cmyk(0%, 83%, 91%, 28%)" 58text="Cardinal Red" title="Cardinal Red" id="myInput58" readonly onclick="copyToClipboard58()">
+					<input type="text" value="cmyk(0%, 100%, 84%, 41%)" 59text="Carmine Red" title="Carmine Red" id="myInput59" readonly onclick="copyToClipboard59()">
+					<input type="text" value="cmyk(0%, 56%, 85%, 5%	)" 60text="Carrot" title="Carrot" id="myInput60" readonly onclick="copyToClipboard60()">
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(0%, 93%, 75%, 83%)" 61text="Cassis" title="Cassis" id="myInput61" readonly onclick="copyToClipboard61()">
+					<input type="text" value="cmyk(0%, 97%, 78%, 77%)" 62text="Cassis" title="Cassis" id="myInput62" readonly onclick="copyToClipboard62()">
+					<input type="text" value="cmyk(0%, 38%, 89%, 48%)" 63text="Cauldron" title="Cauldron" id="myInput63" readonly onclick="copyToClipboard63()">
+					<input type="text" value="cmyk(21%, 0%, 9%, 35%)" 64text="Celadon" title="Celadon" id="myInput64" readonly onclick="copyToClipboard64()">
+					<input type="text" value="cmyk(94%, 32%, 0%, 9%)" 65text="Cerulean" title="Cerulean" id="myInput65" readonly onclick="copyToClipboard65()">
+					<input type="text" value="cmyk(52%, 14%, 0%, 5%)" 66text="Cerulean" title="Cerulean" id="myInput66" readonly onclick="copyToClipboard66()">
+					<input type="text" value="cmyk(71%, 33%, 0%, 28%)" 67text="Cerulean Blue" title="Cerulean Blue" id="myInput67" readonly onclick="copyToClipboard67()">
+					<input type="text" value="cmyk(0%, 23%, 32%, 0%)" 68text="Chair" title="Chair" id="myInput68" readonly onclick="copyToClipboard68()">
+					<input type="text" value="cmyk(0%, 8%, 41%, 18%)" 69text="Chamois" title="Chamois" id="myInput69" readonly onclick="copyToClipboard69()">
+					<input type="text" value="cmyk(0%, 4%, 27%, 2%)" 70text="Champagne" title="Champagne" id="myInput70" readonly onclick="copyToClipboard70()">
+				</div>
+			</div>
+			
+			<div class="row text-center m-3">
+				<div class="col-sm-12">
+					<input type="text" value="cmyk(72%, 65%, 61%, 61%)" 71text="Charcoal Grey" title="Charcoal Grey" id="myInput71" readonly onclick="copyToClipboard71()">
+					<input type="text" value="cmyk(0%, 94%, 94%, 27%)" 72text="Cherry" title="Cherry" id="myInput72" readonly onclick="copyToClipboard72()">
+					<input type="text" value="cmyk(0%, 78%, 55%, 13%)" 73text="Cherry" title="Cherry" id="myInput73" readonly onclick="copyToClipboard73()">
+					<input type="text" value="cmyk(0%, 15%, 30%, 50%)" 74text="Chestnut" title="Chestnut" id="myInput74" readonly onclick="copyToClipboard74()">
+					<input type="text" value="cmyk(0%, 38%, 77%, 35%)" 75text="Chestnut" title="Chestnut" id="myInput75" readonly onclick="copyToClipboard75()">
+					<input type="text" value="cmyk(4%, 0%, 95%, 6%)" 76text="Chickadee" title="Chickadee" id="myInput76" readonly onclick="copyToClipboard76()">
+					<input type="text" value="cmyk(0%, 72%, 88%, 69%)" 77text="Chip" title="Chip" id="myInput77" readonly onclick="copyToClipboard77()">
+					<input type="text" value="cmyk(0%, 36%, 62%, 65%)" 78text="Chocolate" title="Chocolate" id="myInput78" readonly onclick="copyToClipboard78()">
+					<input type="text" value="cmyk(7%, 0%, 95%, 0%)" 79text="Chrome" title="Chrome" id="myInput79" readonly onclick="copyToClipboard79()">
+					<input type="text" value="cmyk(0%, 0%, 98%, 0%)" 80text="Chrome" title="Chrome" id="myInput80" readonly onclick="copyToClipboard80()">
+				</div>
+			</div>
+			
+			<div class="row sticky" id="about-colors">
+				<h1>RGB vs CMYK</h1>
+			</div>
+			<div class="bg-color-video">
+			<div class="row text-center m-3 video-explanation">
+				<div class="col-sm-12">			
+					<iframe width="auto" height="100%" src="https://www.youtube.com/embed/lL0pxSslCzo?controls=0&showinfo=0" title="RGB Colour Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<iframe width="auto" height="100%" src="https://www.youtube.com/embed/YtH9eXWuf3Y?controls=0&showinfo=0" title="Color Theory Lesson - CMYK vs RGB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
+			</div>
+			
+			
+			<img src="./images/RGB-vs-CMYK.jpg" id="img-about-colors">
+			
+				
+				
+			
+		</div>
+		
+		
+	<footer>
+		<p id="copyright"><a target="_blank" href="https://icons8.com/icon/CPt6dvVSzIHn/color-switch">Color Switch</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a><p>
+		<p id="copyright">&copy; Vladimir Jovanović :: DobarBREND 2023</p>
+	</footer>
+	
+	
+	</body>
+</html>
